@@ -2,6 +2,9 @@ body {
     background-color: #84bec9;
 }
 
-h1, p {
-    color: white;
+h1 {
+    color: #fbe338
+}
+p {
+    color: #c0392b
 }
