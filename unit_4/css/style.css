@@ -1,0 +1,136 @@
+/*------------font,text,color------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body {
+  text-align: center;
+  background-size: cover;
+  background: #ffffff;
+}
+
+h1 {
+    color: #2c2c2c
+    font-size:84px;
+    font-family: "Roboto";
+
+
+
+}
+
+h2 {
+    color: #2c2c2c
+    font-size:72px;
+    font-family: "Roboto";
+
+
+}
+
+h3 {
+    color: #2c2c2c
+    font-size:48px;
+    font-family: "Roboto", bold;
+
+
+}
+
+h4 {
+    color: #2c2c2c
+    font-size:36px;
+    font-family: "Roboto";
+
+
+}
+
+p {
+    color: #2c2c2c
+    font-size:28px;
+    font-family: "Lato";
+    line-height: 1.5em;
+    margin: 2em;
+
+}
+
+
+
+/*------------navigation------------*/
+
+header::after{
+	content:'';
+	display:table;
+	clear:both;
+	background:white;
+  width:80%;
+  margin: 0 auto;
+
+}
+
+.logo{
+	float:left;
+	padding:10px,0;
+	width:15%;
+}
+
+nav{
+	float:right;
+}
+
+nav ul{
+
+	margin: 0;
+	padding: 0;
+	list-style:none;
+
+}
+
+nav li{
+	display: inline-block;
+	margin-left:10px;
+	padding-top: 45px;
+  padding-right:45px;
+}
+
+nav a{
+	color:#2c2c2c;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+
+/*------------containers/class------------*/
+
+
+section {
+  background-color:#fbe338;
+  margin:25px;
+  padding: 250px;
+  text-align:center;
+}
+
+article {
+  margin:25px,0px,25px,0px;
+  padding: 50px;
+  text-align:center;
+}
+
+
+
+
+
+
+/*------------partners------------*/
+/*------------benefits------------*/
+/*------------testimonials------------*/
+
+/*------------footer------------*/
+
+footer{
+  width:100%;
+  background-color: #fbe338;
+  padding:50px;
+
+}
+
+
+
