@@ -98,6 +98,13 @@ nav a{
 }
 
 
+
+hr{
+  width:800px;
+}
+
+
+
 /*------------containers/class------------*/
 
 
@@ -109,8 +116,8 @@ section {
 }
 
 article {
-  margin:25px,0px,25px,0px;
-  padding: 50px;
+  margin:25px,0px,100px,0px;
+  padding:10px 5px 15px 20px;
   text-align:center;
 }
 
