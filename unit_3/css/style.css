@@ -47,6 +47,8 @@ p {
     color: #2c2c2c
     font-size:28px;
     font-family: "Lato";
+    line-height: 1.5em;
+    margin: 2em;
 
 }
 
@@ -59,6 +61,8 @@ header::after{
 	display:table;
 	clear:both;
 	background:white;
+  width:80%;
+  margin: 0 auto;
 
 }
 
@@ -82,59 +86,37 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin-left:70px;
+	margin-left:10px;
 	padding-top: 45px;
+  padding-right:45px;
 }
 
 nav a{
-	color:#444;
+	color:#2c2c2c;
 	text-decoration:none;
 	text-transform:uppercase;
 }
 
-.header{
-  width:80%;
-  margin: 0 auto;
-}
 
 /*------------containers/class------------*/
 
 
-.yellowcenter {
-  margin-right: 10px;
-  margin-left: 1px;
-  margin-top: 20px;
-  width: 100%;
+section {
   background-color:#fbe338;
-  padding: 70px 0;
+  margin:25px;
+  padding: 250px;
+  text-align:center;
+}
+
+article {
+  margin:25px,0px,25px,0px;
+  padding: 50px;
   text-align:center;
 }
 
 
 
-.consumer {
-  width: 75%;
-  padding-left:200px;
-  padding-top:10px;
-  padding-bottom:100px;
-  text-align:left;
-}
 
-.vertical { 
-     
-    border-left: 1px black;
-    height: 50%;
-}
-
-
-.enterprise{
-  width: 75%;
-  padding-right:00px;
-  padding-top:10px;
-  padding-bottom:100px;
-  margin-left:1000px;
-  text-align:left;
-}
 
 
 /*------------partners------------*/
@@ -146,7 +128,8 @@ nav a{
 footer{
   width:100%;
   background-color: #fbe338;
-  padding: 60px 0px;
+  padding:50px;
+
 }
 
 
