@@ -68,7 +68,7 @@ header::after{
 
 .logo{
 	float:left;
-	padding:10px,0;
+	padding:10px 10px 0px 30px;
 	width:15%;
 }
 
@@ -95,6 +95,7 @@ nav a{
 	color:#2c2c2c;
 	text-decoration:none;
 	text-transform:uppercase;
+  font-family: "Lato"
 }
 
 
@@ -116,8 +117,8 @@ section {
 }
 
 article {
-  margin:25px,0px,100px,0px;
-  padding:10px 5px 15px 20px;
+  margin: 25px 0px 100px 0px;
+  padding: 10px 15px 15px 20px;
   text-align:center;
 }
 
@@ -127,6 +128,7 @@ article {
 
 
 /*------------partners------------*/
+
 /*------------benefits------------*/
 /*------------testimonials------------*/
 
