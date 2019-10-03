@@ -99,7 +99,7 @@ nav a{
   font-family: "Lato"
 }
 
-
+/*----horizonal line-----*/
 
 hr{
   width:800px;
@@ -138,9 +138,20 @@ article {
 footer{
   width:100%;
   background-color: #fbe338;
-  padding:50px;
+  padding:10px;
+}
 
+/*______footer
+footer{
+  background:#fbe338;
+  padding:20px;
+  margin: 10px;
+  color:#2c2c2c;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family: "Lato"
 }
 
 
+---*/
 
