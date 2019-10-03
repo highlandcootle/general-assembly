@@ -126,8 +126,8 @@ hr{
 
 #consumer {
   background: #E89C6C;
-  padding: 50px 0px 100px 0px;
-  margin: 20px;
+  padding: 50px 50px 100px 50px;
+  margin: 20px 0px 20px 100px;
   width: 600px;
   height:300px;
   float:left;
@@ -137,8 +137,8 @@ hr{
 
 #enterprise{
   background: #E89C6C;
-  padding: 50px 0px 100px 0px;
-  margin: 20px;
+  padding: 50px 50px 100px 50px;
+  margin: 20px 100px 20px 0px;
   width: 600px;
   height: 300px;
   float:right;
@@ -196,7 +196,7 @@ hr{
   background: #E89C6C;
   padding: 50px 10px 100px 10px;
   margin: 800px 50px 0px;
-  width:90%;
+  width:auto;
   height:200px;
 }
 
@@ -205,7 +205,7 @@ hr{
 /*------------footer------------*/
 
 footer{
-  width:100%;
+  width:auto;
   height:100px;
   background-color: #FF957E;
   padding:50px 0px;
