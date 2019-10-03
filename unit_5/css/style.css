@@ -1,0 +1,217 @@
+/*------------font,text,color------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body {
+  text-align: center;
+  background-size: cover;
+  background: #ffffff;
+}
+
+h1 {
+    color: #2c2c2c
+    font-size:84px;
+    font-family: "Roboto";
+
+
+
+}
+
+h2 {
+    color: #2c2c2c
+    font-size:72px;
+    font-family: "Roboto";
+
+
+}
+
+h3 {
+    color: #2c2c2c
+    font-size:48px;
+    font-family: "Roboto", bold;
+
+
+}
+
+h4 {
+    color: #2c2c2c
+    font-size:36px;
+    font-family: "Roboto";
+
+
+}
+
+p {
+    color: #2c2c2c
+    font-size:28px;
+    font-family: "Lato";
+    line-height: 1.5em;
+    margin: 2em;
+
+}
+
+
+
+/*------------navigation------------*/
+
+header::after{
+	content:'';
+	display:table;
+	clear:both;
+	background:white;
+  width:80%;
+  margin: 0 auto;
+
+}
+
+header{
+  background: #FFED74;
+}
+
+.logo{
+	float:left;
+	padding:10px 10px 0px 30px;
+	width:15%;
+}
+
+nav{
+	float:right;
+  background: #F8C66A
+}
+
+nav ul{
+
+	margin: 0;
+	padding: 0;
+	list-style:none;
+
+}
+
+nav li{
+	display: inline-block;
+	margin-left:10px;
+	padding-top: 45px;
+  padding-right:45px;
+}
+
+nav a{
+	color:#2c2c2c;
+	text-decoration:none;
+	text-transform:uppercase;
+  font-family: "Lato"
+}
+
+
+
+hr{
+  width:800px;
+}
+
+
+
+/*------------yellowhero-----------*/
+
+
+#yellow-hero {
+  background-color:#fbe338;
+  margin:25px;
+  padding: 250px;
+  text-align:center;
+}
+
+/*------------enterpriseconsumer-----------*/
+
+
+#consumer {
+  background: #E89C6C;
+  padding: 50px 0px 100px 0px;
+  margin: 20px;
+  width: 600px;
+  height:300px;
+  float:left;
+
+
+}
+
+#enterprise{
+  background: #E89C6C;
+  padding: 50px 0px 100px 0px;
+  margin: 20px;
+  width: 600px;
+  height: 300px;
+  float:right;
+
+}
+
+
+
+
+
+/*------------partners------------*/
+
+.partners{
+  background: #FFE2B8;
+  padding: 50px 0px 100px 0px;
+  margin: 550px 50px 0px;
+  height:200px;
+  width:93%;
+}
+
+
+
+/*------------benefits------------*/
+
+
+
+#benefits{
+  background: #FFE2B8;
+  padding: 50px 10px 100px 50px;
+  margin: 100px 50px 50px 120px;
+  width:400px;
+  height:500px;
+  float:left;
+  text-align:left;
+
+}
+
+#benefits-list{
+  background: #FFE2B8;
+  padding: 50px 10px 100px 50px;
+  margin: 100px 120px 50px 50px;
+  width: 800px;
+  height:500px;
+  float:right;
+  text-align:left;
+}
+
+
+
+
+/*------------testimonials------------*/
+
+
+#testimonials{
+  background: #E89C6C;
+  padding: 50px 10px 100px 10px;
+  margin: 800px 50px 0px;
+  width:90%;
+  height:200px;
+}
+
+
+
+/*------------footer------------*/
+
+footer{
+  width:100%;
+  height:100px;
+  background-color: #FF957E;
+  padding:50px 0px;
+  margin: 25px 0px; 
+
+}
+
+
+
