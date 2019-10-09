@@ -1,0 +1,229 @@
+/*------------font,text,color------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/*------------reset------------*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*------------body------------*/
+
+body {
+  text-align: center;
+  background-size: cover;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:#2c2c2c;
+  font-family: 'Playfair Display', serif;
+}
+
+
+h1 {
+  font-size:48px;  
+}
+
+h2 {
+    font-size:36px;
+}
+
+h3 {
+    font-size:28px;  
+}
+
+h4 {
+    font-size:24px;
+}
+
+p {
+  color: #2c2c2c;
+  font-size:18px;
+  font-family: "Lato", sans-serif;
+}
+
+
+/*------------navigation------------*/
+
+header::after{
+	content:'';
+	display:block;
+	clear:both;
+	background:white;
+  width:80%;
+  margin: 0 auto;
+}
+
+header{
+  background: #FFED74;
+}
+
+.logo{
+	float:left;
+	padding:10px 10px 0px 30px;
+	width:15%;
+}
+
+nav{
+	float:right;
+  background: #F8C66A
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left:10px;
+	padding-top: 45px;
+  padding-right:45px;
+}
+
+nav a{
+	color:#2c2c2c;
+	text-decoration:none;
+	text-transform:uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+a:hover{
+  background-color:#84b3c9;
+}
+
+
+hr{
+  width:auto;
+}
+
+/*------------clearfix-----------*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+/*------------yellowhero-----------*/
+
+
+#yellow-hero {
+  background-color:#fbe338;
+  margin:25px 0px;
+  padding: 250px 0px;
+  text-align:center;
+}
+
+
+/*------------enterpriseconsumer-----------*/
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#consumer {
+ background-color: #E582A2;
+ border: 1px black solid;
+ padding: 20px;
+ float: left;
+ width: 50%;
+ height:400px;
+
+
+}
+
+#enterprise{
+ background-color: pink;
+ border: 1px black solid;
+ padding: 20px;
+ float: right;   
+ width: 50%;
+ height:400px;
+}
+
+
+
+
+/*------------partners------------*/
+
+.partners{
+  background: #FFE2B8;
+  padding: 50px 0px;
+  margin: 80px 0px 0px 0px;
+  height:200px;
+  width:auto;
+}
+
+
+
+/*------------benefits------------*/
+
+
+
+#benefits{
+  background: #FFE2B8;
+  padding: 50px 0px;
+  margin: 50px 0px 0px 0px;
+  width:50%;
+  height:500px;
+  float:left;
+  text-align:left;
+
+}
+
+#benefits-list{
+  background: #FFE2B8;
+  padding: 50px 0px;
+  margin: 50px auto;
+  width: 50%;
+  height:500px;
+  float:right;
+  text-align:left;
+}
+
+
+
+
+/*------------testimonials------------*/
+
+
+#testimonials{
+  background: #E89C6C;
+  padding: 50px 0px;
+  margin: 100px 0px 0px 0px;
+  width:auto;
+  height:200px;
+}
+
+
+
+/*------------footer------------*/
+
+footer{
+  background-color: #FF957E;
+  text-decoration: none;
+  display:block;
+  float:left;
+  padding:20px;
+  margin: 25px 0px;
+  width:100%; 
+}
+
+a:hover{
+  background-color:#84b3c9;
+}
+
+
