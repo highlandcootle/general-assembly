@@ -119,9 +119,9 @@ hr{
 
 
 #yellow-hero {
-  background-color:#fbe338;
   margin:25px 0px;
   padding: 250px 0px;
+  background-color:#fbe338;
   text-align:center;
 }
 
@@ -129,29 +129,28 @@ hr{
 /*------------enterpriseconsumer-----------*/
 
 #two_column {
+    padding: 20px
     background-color: #FFB7CF;
     border: 1px black solid;
-    padding: 20px;
 }
 
 #consumer {
- background-color: #E582A2;
- border: 1px black solid;
- padding: 20px;
  float: left;
  width: 50%;
  height:400px;
-
-
+ padding: 20px;
+ background-color: #E582A2;
+ border: 1px black solid;
 }
 
 #enterprise{
- background-color: pink;
- border: 1px black solid;
- padding: 20px;
  float: right;   
  width: 50%;
  height:400px;
+ padding: 20px;
+ background-color: pink;
+ border: 1px black solid;
+
 }
 
 
@@ -159,12 +158,12 @@ hr{
 
 /*------------partners------------*/
 
-.partners{
-  background: #FFE2B8;
-  padding: 50px 0px;
-  margin: 80px 0px 0px 0px;
+#partners{
   height:200px;
   width:auto;
+  margin: 80px 0px;
+  padding: 50px 0px;
+  background: #FFE2B8;
 }
 
 
@@ -174,12 +173,13 @@ hr{
 
 
 #benefits{
-  background: #FFE2B8;
-  padding: 50px 0px;
-  margin: 50px 0px 0px 0px;
+  float:left;
   width:50%;
   height:500px;
-  float:left;
+  margin: 50px 0px 0px 0px;
+  padding: 50px 0px;
+  background: #FFE2B8;
+
   text-align:left;
 
 }
@@ -201,25 +201,27 @@ hr{
 
 
 #testimonials{
-  background: #E89C6C;
-  padding: 50px 0px;
-  margin: 100px 0px 0px 0px;
   width:auto;
   height:200px;
-}
+  margin: 100px 0px;
+  padding: 50px 0px;
+  background: #E89C6C;
+ }
 
 
 
 /*------------footer------------*/
 
 footer{
+  float:left;
+  display:block;
+  width:100%; 
+  margin: 25px 0px;
+  padding:20px;
   background-color: #FF957E;
   text-decoration: none;
-  display:block;
-  float:left;
-  padding:20px;
-  margin: 25px 0px;
-  width:100%; 
+
+
 }
 
 a:hover{
