@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+/*------------reset------------*/
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*------------body-----------*/
 
 body {
   text-align: center;
@@ -10,60 +19,44 @@ body {
   background: #ffffff;
 }
 
+h1, h2, h3, h4, h5, h6{
+  color:#2c2c2c;
+  font-family: 'Playfair Display', serif;
+}
+
+
 h1 {
-    color: #2c2c2c
-    font-size:84px;
-    font-family: "Roboto";
-
-
-
+  font-size:48px;  
 }
 
 h2 {
-    color: #2c2c2c
-    font-size:72px;
-    font-family: "Roboto";
-
-
+    font-size:36px;
 }
 
 h3 {
-    color: #2c2c2c
-    font-size:48px;
-    font-family: "Roboto", bold;
-
-
+    font-size:28px;  
 }
 
 h4 {
-    color: #2c2c2c
-    font-size:36px;
-    font-family: "Roboto";
-
-
+    font-size:24px;
 }
 
 p {
-    color: #2c2c2c
-    font-size:28px;
-    font-family: "Lato";
-    line-height: 1.5em;
-    margin: 2em;
-
+  color: #2c2c2c;
+  font-size:18px;
+  font-family: "Lato", sans-serif;
 }
-
 
 
 /*------------navigation------------*/
 
 header::after{
 	content:'';
-	display:table;
+	display:block;
 	clear:both;
 	background:white;
   width:80%;
   margin: 0 auto;
-
 }
 
 header{
@@ -78,15 +71,12 @@ header{
 
 nav{
 	float:right;
-  background: #F8C66A
 }
 
 nav ul{
-
 	margin: 0;
 	padding: 0;
 	list-style:none;
-
 }
 
 nav li{
@@ -100,13 +90,13 @@ nav a{
 	color:#2c2c2c;
 	text-decoration:none;
 	text-transform:uppercase;
-  font-family: "Lato"
+  font-family: "Lato", sans-serif;
 }
 
 
 
 hr{
-  width:800px;
+  width:auto;
 }
 
 
@@ -116,49 +106,41 @@ hr{
 
 #yellow-hero {
   background-color:#fbe338;
-  margin:25px;
-  padding: 250px;
+  margin:25px 0px;
+  padding: 250px 0px;
   text-align:center;
 }
+
 
 /*------------enterpriseconsumer-----------*/
 
 
 #consumer {
-  background: #E89C6C;
-  padding: 50px 50px 100px 50px;
-  margin: 20px 0px 20px 100px;
+  padding: 10px;
+  margin: 10px;
   width: 600px;
   height:300px;
   float:left;
 
-
 }
 
 #enterprise{
-  background: #E89C6C;
-  padding: 50px 50px 100px 50px;
-  margin: 20px 100px 20px 0px;
+  padding: 10px;
+  margin: 10px;
   width: 600px;
   height: 300px;
   float:right;
-
 }
-
-
-
 
 
 /*------------partners------------*/
 
 .partners{
-  background: #FFE2B8;
-  padding: 50px 0px 100px 0px;
-  margin: 550px 50px 0px;
+  padding: 50px 0px;
+  margin: 500px;
   height:200px;
-  width:93%;
+  width:auto;
 }
-
 
 
 /*------------benefits------------*/
@@ -166,20 +148,18 @@ hr{
 
 
 #benefits{
-  background: #FFE2B8;
-  padding: 50px 10px 100px 50px;
-  margin: 100px 50px 50px 120px;
-  width:400px;
+  padding: 50px 0px;
+  margin: 50px 0px;
+  width:700px;
   height:500px;
   float:left;
-  text-align:left;
+  text-align:right;
 
 }
 
 #benefits-list{
-  background: #FFE2B8;
-  padding: 50px 10px 100px 50px;
-  margin: 100px 120px 50px 50px;
+  padding: 50px 0px;
+  margin: 50px auto;
   width: 800px;
   height:500px;
   float:right;
@@ -193,9 +173,8 @@ hr{
 
 
 #testimonials{
-  background: #E89C6C;
-  padding: 50px 10px 100px 10px;
-  margin: 800px 50px 0px;
+  padding: 50px 0px;
+  margin: 800px 0px;
   width:auto;
   height:200px;
 }
