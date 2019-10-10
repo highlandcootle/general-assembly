@@ -58,7 +58,7 @@ header::after{
 }
 
 header{
-  background: #FFED74;
+
 }
 
 .logo{
@@ -69,7 +69,6 @@ header{
 
 nav{
 	float:right;
-  background: #F8C66A;
   padding:2em 2em;
 }
 
@@ -78,6 +77,8 @@ nav a{
 	text-decoration:none;
 	text-transform:uppercase;
   padding:2em 2em;
+
+
 }
 
 a:hover{
@@ -106,7 +107,7 @@ hr{
 
 
 #yellow-hero {
-  padding: 15em 0em;
+  padding: 20em 0em;
   background-color:#fbe338;
   text-align:center;
 }
@@ -122,14 +123,12 @@ padding: 0em 0em;
  float: left;
  width: 50%;
  padding: 10em 0em;
- background-color: #E582A2;
 }
 
 #enterprise{
  float: left;   
  width: 50%;
  padding: 10em 0em;
- background-color: pink;
 
 }
 
@@ -141,7 +140,6 @@ padding: 0em 0em;
 #partners{
   width:100%;
   padding: 8em 0em;
-  background: #FFE2B8;
 }
 
 
@@ -151,20 +149,19 @@ padding: 0em 0em;
 
 
 #benefits{
-  background: #FFE2B8;
   float:left;
   width:50%;
-  padding: 10em 0em;
-  text-align:left;
+  padding: 10em 2em;
+  text-align:right;
 
 }
 
 #benefits-list{
-  background: #FFE2B8;
   width: 50%;
   padding: 10em 0em;
   float:left;
   text-align:left;
+  max-width:600px;
 }
 
 
@@ -176,7 +173,6 @@ padding: 0em 0em;
 #testimonials{
   width:100%;
   padding: 8em 0em;
-  background: #E89C6C;
  }
 
 
@@ -184,11 +180,10 @@ padding: 0em 0em;
 /*------------footer------------*/
 
 footer{
-  float:left;
   display:block;
   width:100%; 
   padding:4em 0em;
-  background-color: #FF957E;
+  background-color:#fbe338;
   text-decoration: none;
 }
 
