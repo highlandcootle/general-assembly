@@ -16,10 +16,11 @@ body {
   text-align: center;
   background-size: cover;
   background: #ffffff;
+  color:#2c2c2c;
+  font-family: "Lato", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-  color:#2c2c2c;
   font-family: 'Playfair Display', serif;
 }
 
@@ -41,9 +42,7 @@ h4 {
 }
 
 p {
-  color: #2c2c2c;
   font-size:18px;
-  font-family: "Lato", sans-serif;
 }
 
 
@@ -64,33 +63,21 @@ header{
 
 .logo{
 	float:left;
-	padding:10px 10px 0px 30px;
+	padding:1em;
 	width:15%;
 }
 
 nav{
 	float:right;
-  background: #F8C66A
+  background: #F8C66A;
+  padding:2em 2em;
 }
 
-nav ul{
-	margin: 0;
-	padding: 0;
-	list-style:none;
-}
-
-nav li{
-	display: inline-block;
-	margin-left:10px;
-	padding-top: 45px;
-  padding-right:45px;
-}
 
 nav a{
-	color:#2c2c2c;
 	text-decoration:none;
 	text-transform:uppercase;
-  font-family: "Lato", sans-serif;
+  padding:2em 2em;
 }
 
 a:hover{
@@ -119,8 +106,7 @@ hr{
 
 
 #yellow-hero {
-  margin:25px 0px;
-  padding: 250px 0px;
+  padding: 15em 0em;
   background-color:#fbe338;
   text-align:center;
 }
@@ -129,27 +115,21 @@ hr{
 /*------------enterpriseconsumer-----------*/
 
 #two_column {
-    padding: 20px
-    background-color: #FFB7CF;
-    border: 1px black solid;
+padding: 0em 0em;
 }
 
 #consumer {
  float: left;
  width: 50%;
- height:400px;
- padding: 20px;
+ padding: 10em 0em;
  background-color: #E582A2;
- border: 1px black solid;
 }
 
 #enterprise{
- float: right;   
+ float: left;   
  width: 50%;
- height:400px;
- padding: 20px;
+ padding: 10em 0em;
  background-color: pink;
- border: 1px black solid;
 
 }
 
@@ -159,10 +139,8 @@ hr{
 /*------------partners------------*/
 
 #partners{
-  height:200px;
-  width:auto;
-  margin: 80px 0px;
-  padding: 50px 0px;
+  width:100%;
+  padding: 8em 0em;
   background: #FFE2B8;
 }
 
@@ -173,24 +151,19 @@ hr{
 
 
 #benefits{
+  background: #FFE2B8;
   float:left;
   width:50%;
-  height:500px;
-  margin: 50px 0px 0px 0px;
-  padding: 50px 0px;
-  background: #FFE2B8;
-
+  padding: 10em 0em;
   text-align:left;
 
 }
 
 #benefits-list{
   background: #FFE2B8;
-  padding: 50px 0px;
-  margin: 50px auto;
   width: 50%;
-  height:500px;
-  float:right;
+  padding: 10em 0em;
+  float:left;
   text-align:left;
 }
 
@@ -201,10 +174,8 @@ hr{
 
 
 #testimonials{
-  width:auto;
-  height:200px;
-  margin: 100px 0px;
-  padding: 50px 0px;
+  width:100%;
+  padding: 8em 0em;
   background: #E89C6C;
  }
 
@@ -216,8 +187,7 @@ footer{
   float:left;
   display:block;
   width:100%; 
-  margin: 25px 0px;
-  padding:20px;
+  padding:4em 0em;
   background-color: #FF957E;
   text-decoration: none;
 }
