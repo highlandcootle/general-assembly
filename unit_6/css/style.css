@@ -49,13 +49,11 @@ p {
 }
 
 
-p + h4 {
+h4 + p{
   margin: 1em 0;
 }
 
-h3 + p {
-  padding-top: 1em;
-}
+
 
 
 div + h3 {
@@ -155,16 +153,26 @@ a:hover{
 .entconsumer {
  float: left;
  width: 50%;
- 
- padding: 8em 0;
+ padding: 8em;
+}
+
+#consumer-image{
+
+}
+
+#enterprise-image{
 }
 
 
-.ecimage {
-  width:100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 4em 0;
+.button{
+  background-color: #fbe338; 
+  border: none;
+  margin:2em 0;
+  padding: 1em 3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
 }
 
 
@@ -173,7 +181,7 @@ a:hover{
 
 #partners {
   background: #ecf0f1;
-  padding: 1em 0em;
+  padding: 2em 0em;
 }
 
 #partner-logos {
@@ -183,6 +191,14 @@ a:hover{
 
 
 /*------------benefits------------*/
+
+#benefits {
+ float: left;
+ width: 50%;
+ padding: 8em 0;
+
+
+}
 
 
 #benefits-list{
@@ -229,7 +245,6 @@ footer{
   padding: 1em 0em;
   background-color: #fbe338;
   text-decoration: none;
-
 
 }
 
