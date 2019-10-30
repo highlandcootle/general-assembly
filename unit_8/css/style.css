@@ -156,11 +156,10 @@ a:hover{
  padding: 8em;
 }
 
-#consumer-image{
+.ecimage{
+  clear: both;
+  width: 480px;
 
-}
-
-#enterprise-image{
 }
 
 
@@ -247,4 +246,243 @@ footer{
   text-decoration: none;
 
 }
+
+/*--------media querie 800px----------*/
+
+
+@media (max-width: 800px) {
+  
+nav {
+    float: none;
+  }
+
+nav a {
+    margin: 0 1em 1em 0;
+  }
+
+h1{
+  font-size: 2.5em;  
+  padding-bottom: 1em;
+
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+
+.logo{
+  float: none;
+  padding: 2em 0em 0em;
+  margin-right: 1em;
+  width:20em;
+}
+
+#yellow-hero {
+  padding: 12em 0em;
+  background-color: #fbe338;
+  text-align:left;
+  padding-left: 3em;
+
+}
+
+
+.entconsumer {
+ float: none;
+ width: 100%;
+ padding: 4em;
+}
+
+
+#benefits {
+ float: none;
+ width: 100%;
+ padding: 3em 0 4em 0;
+
+
+}
+
+
+#benefits-list{
+  width: 100%;
+  padding: 2em 0em 2em 0;
+  float: none;
+  text-align: left;
+  max-width: 600px;
+}
+
+
+}
+
+
+
+
+
+
+/*--------media querie 480px----------*/
+
+
+@media (max-width: 480px) {
+
+nav {
+    display: block;
+  
+  }
+
+nav a {
+  font-size:.8em;
+  text-align:center;
+  padding: 0 1em;
+  margin:0 1em;
+}
+
+
+
+h1{
+  font-size: 2.5em;  
+  padding-bottom: 1em;
+  margin: 0em .25em;
+
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    margin: 0em .5em;
+}
+
+
+h3 {
+    font-size: 1.5em;  
+}
+
+
+p {
+  font-size: .8em;
+  line-height: 2em;
+}
+
+
+h4 + p{
+  margin: 2em 0;
+}
+
+
+
+
+
+.logo{
+  padding: 2em 0em 0em;
+  margin-right: 1em;
+  width:10em;
+}
+
+#yellow-hero {
+  padding: 12em 0em;
+  background-color: #fbe338;
+  text-align:left;
+  padding-left: 3em;
+
+}
+
+
+
+.entconsumer {
+ width: 100%;
+ padding: 2em 0;
+}
+
+
+.ecimage{
+  clear: both;
+  width: 100%;
+  padding-bottom:2em;
+
+}
+
+
+
+.button{
+  background-color: #fbe338; 
+  border: none;
+  margin:4em 0 2em;
+  padding: 1em 3em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+
+
+#partners {
+  background: #ecf0f1;
+  margin-top:1em;
+  padding: 3em 0em 2em;
+}
+
+#partner-logos {
+  padding: 4em 6em;
+}
+
+
+
+#benefits {
+ float: none;
+ width: 100%;
+ padding: 4em 0em 3em;
+
+
+}
+
+
+#benefits-list{
+  width: 100%;
+  padding: 1em 0em 3em;
+  float: none;
+  text-align: center;
+  max-width: 300px;
+}
+
+
+
+
+
+
+#testimonials{
+  padding: 4em 1em 8em;
+ }
+
+ #testimonial-text{
+  max-width: 300px;
+  margin: 2em auto;
+  border-width: 2em;
+  box-shadow: 1em 1em 1em #ecf0f1;
+  padding: 4em 0em;
+  text-align:center;
+ }
+
+.testimonial-img {
+  padding-bottom: 1em;
+  border-radius: 100%;
+  width: 75px;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
