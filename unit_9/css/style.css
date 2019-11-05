@@ -1,0 +1,589 @@
+/*------------font,text,color------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/*------------reset------------*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*------------body------------*/
+
+body {
+  text-align: center;
+  background-size: cover;
+  background: #ffffff;
+  color:#2c2c2c;
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Volkhov', serif;
+}
+
+
+h1 {
+  font-size: 3em;  
+  padding-bottom: 1em;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;  
+
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+
+h4 + p{
+  margin: 1em 0;
+}
+
+
+
+
+div + h3 {
+  padding-top: 1em;
+}
+
+
+
+blockquote p {
+  padding: 1em;
+
+}
+
+
+/*------------navigation------------*/
+
+header::after{
+  content:'';
+  display: block;
+  clear: both;
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.logo{
+  float: left;
+  padding: 2em 1em 0 2em;
+  width:250px;
+}
+
+nav{
+  float: right;
+  padding: 4em 2em;
+}
+
+
+nav a{
+  text-decoration: none;
+  padding: 2em 2em;
+}
+
+
+
+
+a:link {
+  color: #2c2c2c;
+}
+
+
+
+a:hover{
+   color: #84bec9;
+}
+
+
+
+
+/*------------clearfix-----------*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 4em 0;
+
+}
+
+
+
+
+/*------------yellowhero-----------*/
+
+
+#yellow-hero {
+  padding: 12em 0em;
+  background-color: #fbe338;
+  text-align:left;
+
+}
+
+
+/*------------enterprise consumer-----------*/
+
+
+.entconsumer {
+ float: left;
+ width: 50%;
+ padding: 8em;
+}
+
+.ecimage{
+  max-width: 1200px;
+  width: 100%;
+
+
+}
+
+
+.button{
+  background-color: #fbe338; 
+  border: none;
+  margin:2em 0;
+  padding: 1em 3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+
+
+/*------------partners------------*/
+
+#partners {
+  background: #ecf0f1;
+  padding: 2em 0em;
+}
+
+#partner-logos {
+  padding: 4em 0em 2em 0em;
+}
+
+
+
+/*------------benefits------------*/
+
+#benefits {
+ float: left;
+ width: 50%;
+ padding: 8em 0;
+
+
+}
+
+
+#benefits-list{
+  width: 50%;
+  padding: 8em 0em;
+  float: left;
+  text-align: left;
+  max-width: 600px;
+
+}
+
+
+.benefits-number{
+  color:#84bec9;
+}
+
+
+
+
+/*------------testimonials------------*/
+
+
+#testimonials{
+  padding: 4em 1em 8em;
+ }
+
+ #testimonial-text{
+  max-width: 600px;
+  margin: 0 auto;
+  border-width: 2em;
+  box-shadow: 1em 1em 1em #ecf0f1;
+  padding: 4em 0em;
+  text-align:center;
+ }
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 100px;
+
+}
+
+/*------------testimonials------------*/
+
+#signup{
+ float: left;
+ width: 50%;
+ padding: 6em 4em 6em 8em;
+ text-align: left;
+ background-color:#F8EFE2;
+}
+
+.subscribe-button{
+  float:left;
+  background-color: #fbe338; 
+  border: none;
+  padding: 1em 3em;
+  margin:0 0 2em 18em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+/*------------footer------------*/
+
+footer{
+  display: block;
+  padding: 1em 0em;
+  background-color: #fbe338;
+  text-decoration: none;
+
+}
+
+/*--------media querie 800px----------*/
+
+
+@media (max-width: 800px) {
+  
+nav {
+    float: none;
+  }
+
+nav a {
+    margin: 0 1em 1em 0;
+  }
+
+h1{
+  font-size: 2.5em;  
+  padding-bottom: 1em;
+
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+
+.logo{
+  float: none;
+  padding: 2em 0em 0em;
+  margin-right: 1em;
+  width:20em;
+}
+
+#yellow-hero {
+  padding: 12em 4em;
+  background-color: #fbe338;
+  text-align:left;
+
+}
+
+
+.entconsumer {
+ float: none;
+ width: 100%;
+ padding: 0em 3em;
+}
+
+
+.ecimage{
+  clear: both;
+  padding: 2em 0 0 6em;
+  max-width: 500px;
+  width: 100%;
+
+}
+
+
+
+#benefits {
+ float: none;
+ width: 100%;
+ padding: 3em 0 4em 0;
+
+
+}
+
+
+#benefits-list{
+  width: 100%;
+  padding: 2em 0em 2em 0;
+  float: none;
+  text-align: left;
+  max-width: 600px;
+}
+
+
+#partners {
+  background: #ecf0f1;
+  padding-top:3em;
+}
+
+#signup{
+ float: none;
+ width: 100%;
+ padding: 4em 6em 0 6em;
+ background-color:#F8EFE2;
+ text-align:center;
+}
+
+.subscribe-button{
+  float:none;
+  background-color: #fbe338; 
+  border: none;
+  padding: 1em 3em;
+  margin:0 0 3em 0em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/*--------media querie 480px----------*/
+
+
+@media (max-width: 480px) {
+
+nav {
+    display: block;
+  
+  }
+
+nav a {
+  font-size:.8em;
+  text-align:center;
+  padding: 0 1em;
+  margin:0 1em;
+}
+
+
+
+h1{
+  font-size: 2.5em;  
+  padding-bottom: 1em;
+  margin: 0em .25em;
+
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5em;
+    margin: 0em .5em;
+}
+
+
+h3 {
+    font-size: 1.5em;  
+}
+
+
+h4 {
+    font-size: 1.2em;  
+}
+
+
+p {
+  font-size: .75em;
+  line-height: 2em;
+}
+
+
+h4 + p{
+  margin: 2em 0;
+}
+
+
+
+
+
+.logo{
+  padding: 2em 0em 0em;
+  margin-right: 1em;
+  width:10em;
+}
+
+#yellow-hero {
+  padding: 12em 0em;
+  background-color: #fbe338;
+  text-align:left;
+  padding-left: 3em;
+
+}
+
+
+
+.entconsumer {
+ float: none;
+ width: 100%;
+ padding: 0em 0em;
+ max-width: 4800px;
+}
+
+
+.ecimage{
+  clear: both;
+  padding: 2em 0 0 0em;
+  max-width: 200px;
+  width: 100%;
+
+}
+
+
+.button{
+  background-color: #fbe338; 
+  border: none;
+  margin:4em 0 2em;
+  padding: 1em 3em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+
+
+#partners {
+  background: #ecf0f1;
+  margin-top:1em;
+  padding: 3em 0em 2em;
+}
+
+#partner-logos {
+  padding: 4em 6em;
+}
+
+
+
+#benefits {
+ float: none;
+ width: 100%;
+ display:block;
+
+}
+
+
+
+
+#benefits-list{
+  width: 100%;
+  padding: 1em 0em 3em;
+  float: none;
+  text-align: center;
+  max-width: 300px;
+}
+
+
+
+
+#testimonials{
+  padding: 4em 1em 8em;
+ }
+
+ #testimonial-text{
+  max-width: 300px;
+  margin: 2em auto;
+  border-width: 2em;
+  box-shadow: 1em 1em 1em #ecf0f1;
+  padding: 4em 0em;
+  text-align:center;
+ }
+
+.testimonial-img {
+  padding-bottom: 1em;
+  border-radius: 100%;
+  width: 75px;
+}
+
+
+#signup{
+ float: none;
+ width: 100%;
+ padding: 4em 2em 0 2em;
+ background-color:#F8EFE2;
+ text-align:center;
+}
+
+.subscribe-button{
+  float:none;
+  background-color: #fbe338; 
+  border: none;
+  padding: 1em 3em;
+  margin:0 0 3em 0em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
